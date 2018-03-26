@@ -24,6 +24,9 @@ logger = logging.getLogger(__logger_name__)
 def index(request):
     return render(request, "funana/index.html")
 
+def iwd(request):
+    return render(request, "funana/iwb.html")
+
 def zhexian(request):
     #template = loader.get_template('funana/zhexian.html')
     #return HttpResponse(template.render(request, 'funana/zhexian.html'))
